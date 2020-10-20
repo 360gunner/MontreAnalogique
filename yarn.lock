@@ -91,7 +91,7 @@
   optionalDependencies:
     node-sass "^4.7.2"
 
-"@angular/common@^6.0.0-beta.2":
+"@angular/common@6.0.0-beta.2":
   version "6.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-6.0.0-beta.2.tgz#16b6d3f90ad192a834c01d9e74a8a72ad9aa9319"
   dependencies:
@@ -106,13 +106,13 @@
     reflect-metadata "^0.1.2"
     tsickle "^0.26.0"
 
-"@angular/compiler@^6.0.0-beta.2":
+"@angular/compiler@6.0.0-beta.2":
   version "6.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-6.0.0-beta.2.tgz#e7e17819b85592104db56809d2f2f50a26003480"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@^6.0.0-beta.2":
+"@angular/core@6.0.0-beta.2":
   version "6.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-6.0.0-beta.2.tgz#a0f07ac5342ff30cb89e993d41e549234ed8f265"
   dependencies:
@@ -122,15 +122,15 @@
   version "6.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.0-beta.2.tgz#c4d49836b186531b49b29f852c8f01c549db4ca7"
 
-"@angular/platform-browser-dynamic@^6.0.0-beta.2":
-  version "6.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.0-beta.2.tgz#484d2bc411d048f1bc91b723a0aa8746218ae2f4"
+"@angular/platform-browser-dynamic@6.0.0-beta.1":
+  version "6.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.0-beta.1.tgz#ecae06d775e3ed173010570556b8ed390afc517d"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser@^6.0.0-beta.2":
-  version "6.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-6.0.0-beta.2.tgz#e0915f5c3680bc51cf87d8e8a5ffa05fb1517341"
+"@angular/platform-browser@6.0.0-beta.1":
+  version "6.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-6.0.0-beta.1.tgz#999ed6c23d3ddf1260fc56214e54cdd1d2d33ada"
   dependencies:
     tslib "^1.7.1"
 
@@ -1423,7 +1423,11 @@ copy-webpack-plugin@^4.1.1:
     pify "^3.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@^2.2.0, core-js@^2.4.0, core-js@^2.4.1:
+core-js@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
+
+core-js@^2.2.0, core-js@^2.4.0:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.3.tgz#8acc38345824f16d8365b7c9b4259168e8ed603e"
 
@@ -5458,7 +5462,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^5.5.6:
+rxjs@5.5.6, rxjs@^5.5.6:
   version "5.5.6"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.6.tgz#e31fb96d6fd2ff1fd84bcea8ae9c02d007179c02"
   dependencies:
@@ -5859,12 +5863,8 @@ socks@~1.1.5:
     smart-buffer "^1.0.13"
 
 source-list-map@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.0.tgz#aaa47403f7b245a92fbc97ea08f250d6087ed085"
-
-source-list-map@~0.1.7:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-0.1.8.tgz#c550b2ab5427f6b3f21f5afead88c4f5587b2106"
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
 
 source-map-resolve@^0.5.0:
   version "0.5.1"
@@ -5902,7 +5902,7 @@ source-map@0.5.x, source-map@^0.5.3, source-map@^0.5.6, source-map@^0.5.7, sourc
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
-source-map@^0.4.2, source-map@^0.4.4, source-map@~0.4.1:
+source-map@^0.4.2, source-map@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
   dependencies:
@@ -6698,13 +6698,6 @@ webdriver-manager@^12.0.6:
     semver "^5.3.0"
     xml2js "^0.4.17"
 
-webpack-core@^0.6.8:
-  version "0.6.9"
-  resolved "https://registry.yarnpkg.com/webpack-core/-/webpack-core-0.6.9.tgz#fc571588c8558da77be9efb6debdc5a3b172bdc2"
-  dependencies:
-    source-list-map "~0.1.7"
-    source-map "~0.4.1"
-
 webpack-dev-middleware@1.12.2, webpack-dev-middleware@~1.12.0:
   version "1.12.2"
   resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-1.12.2.tgz#f8fc1120ce3b4fc5680ceecb43d777966b21105e"
@@ -6753,18 +6746,18 @@ webpack-merge@^4.1.0:
   dependencies:
     lodash "^4.17.4"
 
-webpack-sources@^1.0.0, webpack-sources@^1.0.1, webpack-sources@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.1.0.tgz#a101ebae59d6507354d71d8013950a3a8b7a5a54"
+webpack-sources@^1.0.0, webpack-sources@^1.0.1, webpack-sources@^1.1.0, webpack-sources@^1.3.0:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
 webpack-subresource-integrity@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/webpack-subresource-integrity/-/webpack-subresource-integrity-1.0.3.tgz#c0606d40090b070cde428bec8df3603216e472eb"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/webpack-subresource-integrity/-/webpack-subresource-integrity-1.5.1.tgz#6f44ea99987266b70c4ec42ac51064d33e982277"
   dependencies:
-    webpack-core "^0.6.8"
+    webpack-sources "^1.3.0"
 
 webpack@~3.10.0:
   version "3.10.0"
@@ -7018,6 +7011,6 @@ yn@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
 
-zone.js@^0.8.19:
-  version "0.8.20"
-  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.20.tgz#a218c48db09464b19ff6fc8f0d4bb5b1046e185d"
+zone.js@0.8.19:
+  version "0.8.19"
+  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.19.tgz#a4b522cd9e8b7b616a638c297d720d4c7f292f71"
